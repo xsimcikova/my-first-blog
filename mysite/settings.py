@@ -69,6 +69,9 @@ TEMPLATES = [
     },
 ]
 
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '111.222.333.444', 'http://simi.pythonanywhere.com']
+
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
